@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suruthi R | Portfolio – Computer Science Engineering Student</title>
+  <meta name="description"
+    content="Personal portfolio of Suruthi R, a Computer Science Engineering student passionate about software development, web technologies, and problem solving." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Suruthi<span class="logo-dot">.</span>R<span
+          class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO / HOME ========== -->
+  <section class="hero" id="home">
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <div class="hero-badge animate-on-scroll">
+        <i class="fas fa-circle pulse-dot"></i> Open to Opportunities
+      </div>
+      <h1 class="hero-title animate-on-scroll">
+        Hi, I'm <span class="gradient-text">Suruthi R</span>
+      </h1>
+      <p class="hero-subtitle animate-on-scroll">Computer Science Engineering Student</p>
+      <p class="hero-description animate-on-scroll">
+        Passionate about building innovative software solutions and crafting
+        beautiful web experiences. Eager to bring fresh ideas and a strong
+        foundation in computer science to the IT industry.
+      </p>
+      <div class="hero-cta animate-on-scroll">
+        <a href="#projects" class="btn btn-primary" id="viewProjectsBtn">
+          <i class="fas fa-rocket"></i> View My Projects
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-paper-plane"></i> Get in Touch
+        </a>
+      </div>
+      <div class="hero-stats animate-on-scroll">
+        <div class="stat-item">
+          <span class="stat-number" data-count="3">0</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="11">0</span>
+          <span class="stat-label">Skills</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="100">0</span>
+          <span class="stat-label">% Dedication</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="fas fa-user"></i> Get to know me</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image animate-on-scroll">
+          <div class="image-frame">
+            <img src="suruthi.jpg" alt="Suruthi R – Computer Science Engineering Student" class="about-photo" />
+            <div class="image-border-glow"></div>
+          </div>
+          <div class="about-experience-badge">
+            <span class="exp-number">CSE</span>
+            <span class="exp-label">Student</span>
+          </div>
+        </div>
+        <div class="about-content animate-on-scroll">
+          <h3 class="about-subtitle">A Passionate Learner &amp; Aspiring Developer</h3>
+          <p class="about-text">
+            I am a Computer Science and Engineering student with a deep interest
+            in software development and problem-solving. My academic journey has
+            equipped me with strong fundamentals in programming, data structures,
+            and web technologies.
+          </p>
+          <p class="about-text">
+            I enjoy turning complex problems into simple, elegant, and intuitive
+            solutions. Whether it's building dynamic web pages or designing
+            efficient algorithms, I am always eager to learn and grow.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <strong>Education</strong>
+                <span>B.E. Computer Science &amp; Engineering</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Location</strong>
+                <span>India</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-briefcase"></i>
+              <div>
+                <strong>Status</strong>
+                <span>Fresher – Ready to Contribute</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-heart"></i>
+              <div>
+                <strong>Interests</strong>
+                <span>Fullstack Development, Problem Solving, UI/UX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="fas fa-code"></i> What I know</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <!-- C Programming -->
+        <div class="skill-card animate-on-scroll" data-skill="c">
+          <div class="skill-icon-wrap">
+            <i class="fas fa-copyright"></i>
+          </div>
+          <h3 class="skill-name">C Programming</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="80"></div>
+          </div>
+          <span class="skill-percent">80%</span>
+        </div>
+        <!-- Java -->
+        <div class="skill-card animate-on-scroll" data-skill="java">
+          <div class="skill-icon-wrap">
+            <i class="fab fa-java"></i>
+          </div>
+          <h3 class="skill-name">Java</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="70"></div>
+          </div>
+          <span class="skill-percent">70%</span>
+        </div>
+        <!-- HTML -->
+        <div class="skill-card animate-on-scroll" data-skill="html">
+          <div class="skill-icon-wrap">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3 class="skill-name">HTML</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="90"></div>
+          </div>
+          <span class="skill-percent">90%</span>
+        </div>
+        <!-- CSS -->
+        <div class="skill-card animate-on-scroll" data-skill="css">
+          <div class="skill-icon-wrap">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h3 class="skill-name">CSS</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="85"></div>
+          </div>
+          <span class="skill-percent">85%</span>
+        </div>
+        <!-- JavaScript -->
+        <div class="skill-card animate-on-scroll" data-skill="js">
+          <div class="skill-icon-wrap">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <h3 class="skill-name">JavaScript</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="50"></div>
+          </div>
+          <span class="skill-percent">30%</span>
+        </div>
+
+        <!-- Excel -->
+        <div class="skill-card animate-on-scroll" data-skill="excel">
+          <div class="skill-icon-wrap">
+            <i class="fas fa-file-excel"></i>
+          </div>
+          <h3 class="skill-name">Excel</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="70"></div>
+          </div>
+          <span class="skill-percent">70%</span>
+        </div>
+        <!-- Database Basics -->
+        <div class="skill-card animate-on-scroll" data-skill="db">
+          <div class="skill-icon-wrap">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3 class="skill-name">Database Basics</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="65"></div>
+          </div>
+          <span class="skill-percent">65%</span>
+        </div>
+        <!-- GitHub -->
+        <div class="skill-card animate-on-scroll" data-skill="github">
+          <div class="skill-icon-wrap">
+            <i class="fab fa-github"></i>
+          </div>
+          <h3 class="skill-name">GitHub</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="80"></div>
+          </div>
+          <span class="skill-percent">80%</span>
+        </div>
+        <!-- ChatGPT -->
+        <div class="skill-card animate-on-scroll" data-skill="chatgpt">
+          <div class="skill-icon-wrap">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3 class="skill-name">ChatGPT</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="80"></div>
+          </div>
+          <span class="skill-percent">80%</span>
+        </div>
+        <!-- Antigravity -->
+        <div class="skill-card animate-on-scroll" data-skill="antigravity">
+          <div class="skill-icon-wrap">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 class="skill-name">Antigravity</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="75"></div>
+          </div>
+          <span class="skill-percent">75%</span>
+        </div>
+        <!-- Power BI -->
+        <div class="skill-card animate-on-scroll" data-skill="powerbi">
+          <div class="skill-icon-wrap">
+            <i class="fas fa-chart-bar"></i>
+          </div>
+          <h3 class="skill-name">Power BI</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="80"></div>
+          </div>
+          <span class="skill-percent">80%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="fas fa-folder-open"></i> My Work</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card animate-on-scroll">
+          <div class="project-image">
+            <div class="project-icon-large">
+              <i class="fas fa-receipt"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tech">C Programming</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Food Bill Calculation System</h3>
+            <p class="project-desc">
+              A command-line application built with C that calculates food bills
+              efficiently, handling multiple items, quantities, and generating
+              formatted receipts with tax computation.
+            </p>
+            <div class="project-tags">
+              <span class="tag">C</span>
+              <span class="tag">CLI</span>
+              <span class="tag">Logic Building</span>
+            </div>
+            <a href="https://github.com/suruthiramesh22/Food_Bill" target="_blank" class="project-link"><i
+                class="fab fa-github"></i> View Source Code</a>
+          </div>
+        </div>
+
+
+        <!-- Project 3 -->
+        <div class="project-card animate-on-scroll">
+          <div class="project-image">
+            <div class="project-icon-large">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tech">Power BI · Kaggle</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Netflix Analysis Dashboard</h3>
+            <p class="project-desc">
+              An interactive Data Analysis Dashboard built with Power BI using a Kaggle Netflix dataset to visualize
+              content trends, distribution, and various metrics.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">Data Analysis</span>
+              <span class="tag">Dashboard</span>
+            </div>
+            <a href="C:\Users\mithr\OneDrive\Desktop\project.pbix" target="_blank" class="project-link"><i
+                class="fab fa-github"></i> View Dashboard</a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card animate-on-scroll">
+          <div class="project-image">
+            <div class="project-icon-large">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tech">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Basic Calculator</h3>
+            <p class="project-desc">
+              An interactive calculator built with vanilla JavaScript featuring
+              arithmetic operations, a sleek UI, keyboard support, and a clear
+              display for smooth computations.
+            </p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <a href="https://github.com/suruthiramesh22/Calculator_mini_App" target="_blank" class="project-link"><i
+                class="fab fa-github"></i> View Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESUME ========== -->
+  <section class="section resume" id="resume">
+    <div class="container">
+      <div class="resume-card animate-on-scroll">
+        <div class="resume-content">
+          <div class="resume-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h2 class="resume-title">Download My <span class="gradient-text">Resume</span></h2>
+          <p class="resume-text">
+            Interested in learning more about my qualifications and experience?
+            Download my resume to see a complete overview of my academic achievements,
+            projects, and skills.
+          </p>
+          <a href="https://1drv.ms/w/c/7a44990b8686318b/IQBhvoA-4CYaTYXyl3oBOwVRAW-Pqm0dIYo2-1uGjrSPpkY?e=MtDojw"
+            class="btn btn-primary btn-download" id="downloadResumeBtn" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+        <div class="resume-decoration">
+          <div class="decoration-circle c1"></div>
+          <div class="decoration-circle c2"></div>
+          <div class="decoration-circle c3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag"><i class="fas fa-envelope"></i> Say Hello</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info-card animate-on-scroll">
+          <h3 class="contact-info-title">Contact Information</h3>
+
+          <div class="contact-details-new">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Address</strong>
+                <span>1989, Rajaji Nagar, Thanjavur, 613004<br>My present location is Coimbatore Eachanari</span>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Phone</strong>
+                <span>+91 9566827224</span>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Email</strong>
+                <span>mithranramesh080@gmail.com</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials-new">
+            <a href="https://www.linkedin.com/in/suruthi-radhakrishna-86ba99315/" target="_blank"
+              rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/suruthiramesh22" target="_blank" rel="noopener noreferrer" class="social-link"
+              aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.hackerrank.com/profile/mithranramesh080" target="_blank" rel="noopener noreferrer"
+              class="social-link" aria-label="HackerRank">
+              <i class="fab fa-hackerrank"></i>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form animate-on-scroll" id="contactForm">
+          <!-- Web3Forms access key – replace YOUR_ACCESS_KEY_HERE with your real key from https://web3forms.com -->
+          <input type="hidden" name="access_key" id="web3formsKey" value="55d694f2-66ed-437c-9dea-2c10f457a945" />
+          <input type="hidden" name="subject" value="New message from your Portfolio Website!" />
+          <input type="hidden" name="from_name" value="Portfolio Contact Form" />
+          <div class="form-group">
+            <label for="contactName">Name</label>
+            <input type="text" id="contactName" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email</label>
+            <input type="email" id="contactEmail" name="email" placeholder="your.email@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="contactSubject">Subject</label>
+            <input type="text" id="contactSubject" name="subject" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="5" placeholder="Write your message here…"
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-col brand-col">
+          <h2 class="footer-heading-large">Suruthi<span class="logo-dot">.</span></h2>
+          <p class="footer-desc">Motivated entry-level software developer passionate about solving real-world problems
+            through clean and efficient code.</p>
+        </div>
+
+        <div class="footer-col links-col">
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col info-col">
+          <h3 class="footer-heading">Contact Info</h3>
+          <ul class="footer-info">
+            <li><i class="fas fa-map-marker-alt"></i> Thanjavur, Tamil Nadu</li>
+            <li><i class="fas fa-phone-alt"></i> +91 9566827224</li>
+            <li><i class="fas fa-envelope"></i> mithranramesh080@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2023 Suruthi Radhakrishnan. All Rights Reserved.</p>
+        <div class="footer-socials-new">
+          <a href="https://www.linkedin.com/in/suruthi-radhakrishna-86ba99315/" target="_blank"
+            rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/suruthiramesh22" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.hackerrank.com/profile/mithranramesh080" target="_blank" rel="noopener noreferrer"
+            aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
